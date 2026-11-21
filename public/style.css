@@ -34,7 +34,10 @@ a.brand:hover .mark{color:var(--garnet-2)}
 nav.main ul{list-style:none;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
 nav.main a{font-family:var(--body);font-weight:600;font-size:12.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;border-bottom:2px solid transparent;padding:4px 0}
 nav.main a:hover{color:var(--garnet);border-bottom-color:var(--brass)}
-nav.main a.btn{border-bottom:none}
+nav.main a.btn{border-bottom:none;color:var(--cream)}
+nav.main a.btn:hover{color:var(--cream)}
+nav.main a.btn{background:var(--garnet);border-color:var(--garnet)}
+nav.main a.btn:hover{background:var(--garnet-l);border-color:var(--garnet-l)}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--body);font-size:13px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;text-decoration:none;background:var(--garnet);color:var(--cream);padding:14px 24px;border-radius:6px;border:1.5px solid var(--garnet);cursor:pointer}
 .btn:hover{background:var(--garnet-l);border-color:var(--garnet-l);color:var(--cream)}

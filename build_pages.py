@@ -60,7 +60,10 @@ def head(title, desc, path, og=True):
       '<li><a href="/wood-fired-pizza-madison-park">Wood-Fired</a></li>'
       '<li><a href="/pizza-takeout-madison-park">Takeout</a></li>'
       '<li><a href="/faq">FAQ</a></li><li><a class="btn" href="/contact">Opening news</a></li></ul></nav></div></header>\n'
-      '<main id="main">\n</main>\n'
+      '<main id="main">\n')
+
+TAIL = (
+      '</main>\n'
       '<footer class="site"><div class="wrap"><div class="nap"><p class="fbrand">Little Gem</p>'
       '<address>4235 E Madison St<br>Madison Park · Seattle, Washington 98112<br>Neighborhood pizzeria · opening early 2027</address></div>'
       '<nav aria-label="Footer"><ul><li><a href="/our-pizza">Our Pizza</a></li>'
@@ -409,7 +412,7 @@ PAGES["thanks.html"] = dict(
 
 for fname, P in PAGES.items():
     path = "/" if fname == "index.html" else "/" + fname[:-5]
-    doc = head(P["title"], P["desc"], path) + P["body"] + "\n" + P["ld"] + "</body>\n</html>\n"
+    doc = head(P["title"], P["desc"], path) + P["body"] + "\n" + TAIL + P["ld"] + "</body>\n</html>\n"
     open(os.path.join(OUT, fname), "w", encoding="utf-8").write(doc)
     print("wrote", fname, len(doc), "bytes")
 
