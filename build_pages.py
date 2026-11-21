@@ -72,8 +72,8 @@ def head(title, desc, path, og=True):
       '<!-- BUILT-2026-11-21 -->\n')
 
 MAPCELL = (f'<div class="mapcell"><iframe src="https://www.google.com/maps?q={MAPQ}&amp;output=embed" '
-  'title="Map: Little Gem, 4235 E Madison St, Seattle, WA 98112" loading="lazy"></iframe></div>')
-MAPNOTE = (f'<p class="mapnote"><a href="{MAPURL}" rel="noopener">Open in Google Maps →</a> — dates, menu and '
+  'title="Map: Little Gem, 4235 E Madison St, Seattle, WA 98112"></iframe></div>')
+MAPNOTE = (f'<p class="mapnote"><a href="{MAPURL}" rel="noopener">Open in Google Maps</a> &middot; dates, menu and '
   'ordering news go out on Instagram first.</p>')
 
 REST = {
