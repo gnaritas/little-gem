@@ -1,0 +1,9 @@
+{
+  "name": "little-gem-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Little Gem — neighborhood pizzeria, Madison Park, Seattle WA. Template v2 T1 (2026-11-21, t_3e4eb1a5).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

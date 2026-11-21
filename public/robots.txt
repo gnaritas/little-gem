@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://little-gem-demo.up.railway.app/sitemap.xml
