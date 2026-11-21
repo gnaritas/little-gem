@@ -34,7 +34,7 @@ HEROART = ('<svg class="heroart" viewBox="0 0 560 520" role="img" aria-label="Il
  '<g fill="#e5b45a"><path d="M0-24C4-9 9-4 24 0C9 4 4 9 0 24C-4 9 -9 4 -24 0C-9-4 -4-9 0-24Z" transform="translate(72 78)"/>'
  '<path d="M0-16C3-6 6-3 16 0C6 3 3 6 0 16C-3 6 -6 3 -16 0C-6-3 -3-6 0-16Z" transform="translate(492 96)"/>'
  '<path d="M0-20C3-8 8-3 20 0C8 3 3 8 0 20C-3 8 -8 3 -20 0C-8-3 -3-8 0-20Z" transform="translate(452 446)"/>'
- '<circle cx="58" cy="140" r="4"/><circle cx="506" cy="42" r="3.5"/><circle cx="524" cy="330" r="4"/><circle cx="112" cy="444" r="3.5"/></g></svg>')
+ '<circle cx="58" cy="140" r="4"/><circle cx="506" cy="42" r="3.5"/><circle cx="524" cy="330" r="4"/><circle cx="112" cy="444" r="3.5"/></g></g></svg>')
 
 def head(title, desc, path, og=True):
     ogmeta = ""
